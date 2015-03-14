@@ -1,0 +1,2 @@
+[B,FitInfo] = lassoglm(imgdata,segmentedimageslabel);
+imshow([im2Array(B(:,10)/sum(B(:,10)),2) ones(40,5) im2Array(B(:,20)/sum(B(:,20)),2) ones(40,5) im2Array(B(:,30)/sum(B(:,30)),2) ones(40,5) im2Array(B(:,40)/sum(B(:,40)),2) ones(40,5) im2Array(B(:,50)/sum(B(:,50)),2) ones(40,5) im2Array(B(:,60)/sum(B(:,60)),2) ones(40,5) im2Array(B(:,70)/sum(B(:,70)),2) ones(40,5) im2Array(B(:,80)/sum(B(:,80)),2) ones(40,5) im2Array(B(:,90)/sum(B(:,90)),2) ])
